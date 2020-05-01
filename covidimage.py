@@ -131,7 +131,7 @@ class CovidImage:
             pickle.dump(self.trainX[0:N2, :, :], f)
 
         with open(os.path.join(self.path, "trainX2.pickle"), "wb") as f:
-            pickle.dump(self.trainX[N2:2, :, :], f)
+            pickle.dump(self.trainX[N2:N, :, :], f)
 
         with open(os.path.join(self.path, "train_y.pickle"), "wb") as f:
             pickle.dump(self.train_y, f)
