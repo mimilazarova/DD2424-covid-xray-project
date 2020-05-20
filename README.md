@@ -19,3 +19,9 @@ SHAP_LIME.ipynb - here is the code for thr explainability methods SHAP and LIME.
 
 covid_explainability.ipynb - is an aggregate notebook for all explainability methods.
 
+
+Mimi Lazarova - mimilazarova
+Maria Bjelikj - bjelikj
+Johan Brobeg - johbrob
+Diego Moreno - diegotheairwolf
+
