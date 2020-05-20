@@ -9,6 +9,7 @@ It is important to be noted that any labaling by our model is not a diaginosis.
 In the repository one can find the following files:
 
 preprocess.py - this implements a class for loading images to np.arrays
+To preproces the data, one has to download COVIDx following the instructionsin the link above. After that, change the path to the data folder, and to the train and test .txt file in main in preprocess.py and run it.
 
 CNN_COVID19.ipynb - in this notebook one can see the architecture of the final model, as well as some of the experiments we tried in oreder to increase the accuracy of the model.
 
