@@ -13,7 +13,7 @@ To preproces the data, one has to download COVIDx following the instructionsin t
 
 CNN_COVID19.ipynb - in this notebook one can see the architecture of the final model, as well as some of the experiments we tried in order to increase the accuracy of the model.
 
-Grad_CAM.ipynb - here is the code for the explaynability method Grad-CAM.
+Grad_CAM.ipynb - here is the code for the explainability method Grad-CAM.
 
 SHAP_LIME.ipynb - here is the code for thr explainability methods SHAP and LIME.
 
