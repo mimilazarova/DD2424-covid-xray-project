@@ -165,9 +165,9 @@ class CovidImage:
 
 def main():
 
-    path = "data"
-    train_file = "data/train_split_v3.txt"
-    test_file = "data/test_split_v3.txt"
+    path = "path/to/file/with/data" # this should be teh folder where you have subfolders train and test and there are the train and test omages
+    train_file = "path/to/folder/train_COVIDx2.txt" 
+    test_file = "path/to/folder/test_COVIDx2.txt" 
 
     dataloader = CovidImage(path, train_file, test_file)
     trainX, train_y, testX, test_y = dataloader.load_data()
